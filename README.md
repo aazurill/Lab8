@@ -22,4 +22,4 @@ If I ran the puppeteer tests with headless set to true, I expect puppeteer to ru
 
 pushToHIstory("settings", 0);
 
-![alt text](https://github.com/aazurill/Lab8/blob/npm_test.jpg?raw=true)
+![npm tests](./npm_test.jpg "npm screenshot")
