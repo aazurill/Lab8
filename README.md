@@ -1,5 +1,6 @@
 # Lab8_Starter
-
+# Authors
+Ethan Tan
 ## Check your understanding q's (FILL OUT)
 1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter)
 
@@ -20,3 +21,5 @@ If I ran the puppeteer tests with headless set to true, I expect puppeteer to ru
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
 
 pushToHIstory("settings", 0);
+
+![alt text](https://github.com/aazurill/Lab8/blob/npm_test.jpg?raw=true)
