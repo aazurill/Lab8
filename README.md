@@ -20,7 +20,9 @@ If I ran the puppeteer tests with headless set to true, I expect puppeteer to ru
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
 
-pushToHIstory("settings", 0);
+beforeEach(async () = { 
+  await page.click('header > img');
+});
 
 ![npm tests](./npm_test.jpg "npm screenshot")
 ![router tests](./router_test.jpg "router test")
